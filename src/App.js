@@ -102,7 +102,7 @@ function App() {
     // this is main html from public dir --> parents of all child components
     // all other components are  added here 
     
-    <Router>
+    <HashRouter>
       <div>
         <Header title="Smart Todo" searchBar={false} /> 
 
@@ -129,7 +129,7 @@ function App() {
         </Switch>
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
 
   );
 }
